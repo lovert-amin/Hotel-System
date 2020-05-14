@@ -6,14 +6,14 @@ export default class Footer extends Component {
             <div className="footer-container">
                 <div className="footer">
                     <span>HOTEL LOVETECH</span>
-                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+                    <p>Lorem ipsum dolor sit amet,<br/> consectetuer adipiscing elit,<br/>sed diam nonummy nibh euismod tincidunt u<br/>t laoreet dolore magna aliquam erat volutpat.</p>
                 </div>
                 <div className="footer">
                     <span>LATEST NEWS</span>
-                    <p>Hotel Zante in pictures
-                    10 Things You Should Know
-                    Hotel Zante Weddings
-                    Hotel Zante family party
+                    <p>LOVETECH HOTEL in pictures<br/>
+                    10 Things You Should Know<br/>
+                    Hotel Zante Weddings<br/>
+                    Hotel Zante family party<br/>
                     Live your myth in Greece</p>
                 </div>
                 <div className="footer">
@@ -24,7 +24,7 @@ export default class Footer extends Component {
                     About us<br/>
                     History</p>
                 </div>
-                <div>
+                <div className="footer">
                     <span>CONTACT US</span>
                     <p>
                     25, Navagio Zakynthos, Greece<br/>
