@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.services-container{
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-weight: bold;
+    flex-wrap: wrap;
+  
+}
+
+
+.services-container img{
+    height: 200px;
+    width: 200px;
+    border-radius: 5px;
+}
+
+.slide-container p{
+    display: block;
+    color: black;
+
+}

@@ -1,6 +1,6 @@
 import React from 'react'
-import AliceCarousel from 'react-alice-carousel'
-import 'react-alice-carousel/lib/alice-carousel.css'
+import AliceCarousel from 'react-alice-carousel';
+import 'react-alice-carousel/lib/alice-carousel.css';
 import room1 from "./images/room1.jpg";
 import room2 from "./images/room2.jpg";
 import room3 from "./images/room3.jpg";

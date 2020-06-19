@@ -2,6 +2,8 @@ import React from 'react';
 import Navbar from "./Components/navbar/Navbar";
 import Main from "./Components/main/Main";
 import Footer from "./Components/footer/Footer"
+import Rooms from "./Components/rooms/Rooms"
+import {BrowserRouter as Router,Switch,Route} from "react-router-dom";
 
 
 
@@ -9,9 +11,16 @@ import Footer from "./Components/footer/Footer"
 function App() {
   return (
     <div>
+      <Router>
+
       <Navbar/>
-      <Main/>
-      <Footer/>
+      
+        <Switch>
+         <Main/>
+        </Switch>
+        <Footer/>
+      </Router>
+      
     </div>
   );
 }
